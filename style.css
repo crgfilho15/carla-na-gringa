@@ -1,0 +1,43 @@
+:root {
+    --cor1: #6995BE;
+    --cor2: #DD715E;
+}
+
+.image {
+    object-fit: cover;
+    max-height: 500px;
+}
+
+.nav-link.active {
+    background-color: var(--cor2) !important;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    background-color: var(--cor1) !important;
+    color: #ffffff !important;
+    margin: 5px;
+}
+
+.body {
+    margin: 10px 20px !important;
+}
+
+.texto {
+    text-align: justify; 
+}
+
+.texto a {
+    text-decoration: none;
+    color: #DD715E;
+}
+
+.footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: var(--cor2);
+}
